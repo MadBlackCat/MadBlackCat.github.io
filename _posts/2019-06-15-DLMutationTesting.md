@@ -129,8 +129,6 @@ As figure, most of the AERs are relatively small, and for source-level mutation 
 
 ![1560593265825](../../../../assets/1560593265825.png)
 
-<div>{%- include assets/1560593265825.png -%}</div>
-
 ![1560593279921](../../../assets/1560593279921.png)
 
 ![1560593288482](../../../assets/1560593288482.png)
@@ -139,12 +137,6 @@ As figure, most of the AERs are relatively small, and for source-level mutation 
 - Mutation Testing Results of Test Data by Class: Figure 7 summarizes the obtained mutation score and AER for each model. We can see that, in general, the test data of different classes obtain different mutation scores and AER. Consider the results of model A as an example, the test data of class 3 obtains the lowest mutation score and AER (i.e., 6.25% and 1.48%). It indicates that, compared with the test data of other classes, the test data of class 3 could still be further enhanced. In addition, this experiment demonstrates that a higher AER does not necessarily result in a higher mutation score. For model A, the AER obtained by class 1 is larger than class 2 while the mutation score of class 1 is smaller.
 
 
-
-
-
-
-
-## Compare to existing approaches
 
 ## Limitation
 
