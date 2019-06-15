@@ -129,7 +129,7 @@ As figure, most of the AERs are relatively small, and for source-level mutation 
 
 ![1560593265825](../../../assets/1560593265825.png)
 
-<div>{%- posts assets/1560593265825.png -%}</div>
+<div>{%- include assets/1560593265825.png -%}</div>
 
 ![1560593279921](../../../assets/1560593279921.png)
 
