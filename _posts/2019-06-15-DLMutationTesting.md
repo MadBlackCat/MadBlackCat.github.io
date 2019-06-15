@@ -127,7 +127,7 @@ As figure, most of the AERs are relatively small, and for source-level mutation 
 
 #### Mutation Testing of Original Test Data by Class
 
-![1560593265825](../../../assets/1560593265825.png)
+![1560593265825](../../../../assets/1560593265825.png)
 
 <div>{%- include assets/1560593265825.png -%}</div>
 
