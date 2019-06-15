@@ -99,10 +99,13 @@ It proposed two kinds of mutation testing metrics for DL Systems in this paper. 
 2. t’ is not classified as ci by m’.
 
 They define the mutation score for DL systems as follows, where KilledClasses(T’,m’) is the set of classes of m’ killed by test data in T’:
+
 $$
 \left(T^{\prime}, M^{\prime}\right)=\frac{\sum_{m^{\prime} \in M^{\prime}} | \text { Killed Classes }\left(T^{\prime}, m^{\prime}\right) |}{\left|M^{\prime}\right| \times|C|}
 $$
+
 They define average error rate (AER) of T’ on each mutant model m’ ∈ M’ to measure the overall behavior differential effects introduced by all mutation operators.
+
 $$
 \left(T^{\prime}, M^{\prime}\right)=\frac{\sum_{m^{\prime} \in M^{\prime}} \text { ErrorRate }\left(T^{\prime}, m^{\prime}\right)}{\left|M^{\prime}\right|}
 $$
@@ -125,7 +128,7 @@ As figure, most of the AERs are relatively small, and for source-level mutation 
 #### Mutation Testing of Original Test Data by Class
 
 ![1560593265825](../../../assets/1560593265825.png)
-{%- posts assets/1560593265825.png -%}
+{%- include assets/images/1560593265825.png -%}
 ![1560593279921](../../../assets/1560593279921.png)
 
 ![1560593288482](../../../assets/1560593288482.png)
