@@ -70,10 +70,13 @@ $$
 
 The model select sentences from document sentences set as summary until predict the 'stop' word.
 Train a model form scratch and a model that is pre-trained on the ordering task.
+When Decoder they used beam search. The beam size is 100.
 
 ![](../assets/roughorder.png)
 
 ##### Learned Sentence Representations
+
+The ST is Skip Thought. They have two decoder of the model. One is used to predict the the forward direction of the order and another in the backward direction.
 
 ![](../assets/lsrorder.png)
 
