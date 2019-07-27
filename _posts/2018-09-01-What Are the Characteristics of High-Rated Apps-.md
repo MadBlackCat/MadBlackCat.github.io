@@ -1,6 +1,6 @@
 ---
 title: What Are the Characteristics of High-Rated Apps?
-tags： 论文
+tags: Paper
 
 ---
 
