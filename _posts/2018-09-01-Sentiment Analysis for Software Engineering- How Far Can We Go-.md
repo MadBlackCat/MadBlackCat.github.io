@@ -1,7 +1,6 @@
 ---
 title: Sentiment Analysis for Software Engineering: How Far Can We Go?
-
-tags： Paper
+tags: Paper
 
 ---
 
