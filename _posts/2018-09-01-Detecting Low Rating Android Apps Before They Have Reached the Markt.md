@@ -1,6 +1,6 @@
 ---
 title: Detecting Low Rating Android Apps Before They Have Reached the Market
-tags：Paper
+tags: Paper
 ---
 
 They proposed a novel method to detect low rating Android apps only based on the .apk fles. With their approach, an app market does not need to risk its reputation by exposing low rating apps to end users for rating collection.
