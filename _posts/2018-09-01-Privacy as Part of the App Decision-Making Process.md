@@ -1,7 +1,7 @@
 ---
 title: Privacy as Part of the App Decision-Making Process
 
-tags： 论文
+tags: Paper
 
 ---
 
