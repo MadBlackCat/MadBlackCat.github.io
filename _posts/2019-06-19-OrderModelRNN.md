@@ -48,11 +48,13 @@ $$
 Sentence Ordering and Summarization
 
 #### Order Discrimination
+
 ![](../assets/SDOrder.png)
 
 #### Sentence Ordering
 
 ##### Data set:
+
 - NIPS Abstracts
 - ACL Abstracts
 - NSF Abstracts
