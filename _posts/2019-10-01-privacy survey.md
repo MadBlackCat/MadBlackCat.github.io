@@ -144,7 +144,7 @@ Closed QA方法先假设可以把所有的问题分类到几个与设计好的�
 - K-IT-K-DP - 关键词-数据类型-关键词-数据目的，第一个关键词表示，这一句话是用来描述收集数据目的存在，比如关键词（"use"）
   
 
-![1570542036049](F:\Documents\documents\img\1570542036049.png)
+![1570542036049](../../../../assets/1570542036049.png)
 
 
 
@@ -360,9 +360,9 @@ app方面通过分析api和permission的调用来判断相关内容是否调用�
 
 ![1570464064144](../../../../assets/1570464064144.png)
 
-![1570464349525](F:\Documents\documents\img\1570464349525.png)
+![1570464349525](../../../../assets/1570464349525.png)
 
-![1570464523535](F:\Documents\documents\img\1570464523535.png)
+![1570464523535](../../../../assets/1570464523535.png)
 
 
 
@@ -438,8 +438,16 @@ Kumar et al.  目的为了证明，使用专门领域内的数据集训练过的
 介绍了写一篇隐私政策的目标和标准。
 
 
+### Automated and Personalized Privacy Policy Extraction under GDPR Consideration
 
+这篇论文的主要贡献是根据从用户的角度出发，根据用户的类型在策中用户所感兴趣的segment，同时列出该segment在GDPR中相关的详细描述。
 
+在判断用户类型方面，作者使用了众包的方法，在亚马逊上设计问卷照了252个参与者回答他们设计的问卷。并要求参与者列出在隐私政策中关于OPP-115中所列出的哪个data practice category最感兴趣。根据这些，作者做出了一个关于隐私政策data practice category与Google Play 中的app category的矩阵，如果用户关注第i个app category和第j个privacy policy中的category就在相应位置标1，最后通过聚类方法，来得到一共有多少种类型的Profile。
 
+最后实验结果得到6种Profile，Profile1代表最关心大多数应用程序数据安全性的用户。 Profile2包含对第一方和第三方收集的数据。 Profile6强调了用户控制权。 Profile7专注于与财务和位置信息相关的应用程序的数据保留和数据安全性。 除了一些特殊情况外，Profile3、4、5对于隐私政策的内容不太感兴趣。对于一个新用户，将会通过让用户回答一些问题（最多5个，问题设置跟app categ和隐私政策category有关）的方法来判断赋予这个用户哪一个Profile。
 
+赋予用户Profile后会从隐私政策通过分类器将隐私政策的每个segment按照privacy policy category进行分类，自动找到该属性的用户最感兴趣的segment。
 
+在分类中使用的方法是TextCNN，数据集使用的是OPP-115。分类结果与baseline相比可以达到目前最好的结果。
+
+![1572079896938](../../../../assets/1572079896938.png)
